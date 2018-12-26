@@ -34,7 +34,7 @@ Grant permissions to "registry-account" Service Account
 
 `dcos security org users grant registry-account dcos:adminrouter:ops:ca:rw full`
 
-Create registry.options.json file
+Create registry-options.json file
 
 `echo '{"registry":{"service-account-secret-path":"registry-private-key"}}' > registry-options.json`
 

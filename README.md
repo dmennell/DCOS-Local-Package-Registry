@@ -84,16 +84,22 @@ Remove Package (eg Jenkins)
 ## Lessons Learned:
 
 **Package Versioning**
+
 When deploying packages of the same name, the Local Package Registry will save them under the same heading and allow you to select the version to be deployed from a drop-down box.
 
 
 **Deploying Packages**
+
 Local registry packages can be deployed as normal from both the GUI and the CLI interfaces.
 
+
 **Default Packages**
+
 When uploading packages, the most recent one uploaded will be treated as the default even if the version number is lower than previous ones.
 
+
 **Deploying Kubernetes**
+
 When Deploying Kubernetes Cluster, make sure to select "Use Agent Docker Certs" (Service Section, borrom of page) or installation will crashloop and stall at the Control Plane deployment.
 
 ![IMAGE](quiver-image-url/69FB11EFAEE4B847A8C33B3FEC5ABDFC.jpg =309x179)

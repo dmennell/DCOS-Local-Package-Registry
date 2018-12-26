@@ -57,7 +57,7 @@ sudo systemctl restart docker
 
 ## Manage Packages in DC/OS Package Registry
 
-Below link contains references to supported package registries:
+Below contains references to download links for supported packages:
 
 `https://downloads.mesosphere.com/universe/packages/packages.html`
 

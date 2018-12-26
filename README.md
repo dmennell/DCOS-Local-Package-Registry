@@ -16,7 +16,7 @@ Add the Local Bootstrap Registry
 
 Install Enterprise CLI
 
-`dcos package install --yes dcos-enterprise-cl`
+`dcos package install --yes dcos-enterprise-cli`
 
 Creates Service Account Keys
 
